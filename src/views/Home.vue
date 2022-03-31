@@ -1,28 +1,24 @@
 <template>
   <div class="home">
-   <header><h1>Name</h1></header>
-    <p><strong>Web Developer.</strong>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, deleniti blanditiis, accusamus dicta repellendus aliquam culpa quasi, molestias corporis expedita earum possimus nemo officiis minus molestiae similique excepturi asperiores hic.
-    </p>
-      <h2>Short notes</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla adipisci provident, optio laboriosam, animi, quae repellat alias mollitia repellendus doloremque earum! Repellendus, optio quasi aliquid nobis obcaecati libero praesentium expedita.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla adipisci provident, optio laboriosam, animi, quae repellat alias mollitia repellendus doloremque earum! Repellendus, optio quasi aliquid nobis obcaecati libero praesentium expedita.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla adipisci provident, optio laboriosam, animi, quae repellat alias mollitia repellendus doloremque earum! Repellendus, optio quasi aliquid nobis obcaecati libero praesentium expedita.</p>
-      <h2>Posts</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo rerum praesentium laboriosam magni a numquam sapiente pariatur maiores consectetur, eveniet ab aliquam est natus dignissimos tenetur quis ipsam harum illo!</p>
-    <footer>Name</footer>
+   <Intro />
+   <Projects />
+   <Posts />
+   <router-link to="/notes">Short Notes</router-link>
   </div>
 </template>
-<style lang="scss">
-  .home{
-    max-width: 36rem;
-    margin: auto;
-  }
-</style>
 <script>
+import Intro from '@/components/Intro.vue'
+import Posts from '@/components/Posts.vue'
+import Projects from '@/components/Projects.vue'
+// import Notes from '../views/Notes.vue'
 // @ is an alias to /src
-
+console.log(process.env.NODE_ENV);
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {
+    Intro,
+    Posts,
+    Projects
+  }
 }
 </script>
