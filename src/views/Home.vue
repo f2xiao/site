@@ -25,20 +25,21 @@
    <br>
    <br>
    
-   <div class='reason_icon'>
-      <img src = "@/assets/logical_reason.svg" alt="title"/>
-   </div>
+  <Signature />
   </div>
 </template>
 <script>
-
-
+import Signature from '@/components/Signature.vue';
 
 // import Notes from '../views/Notes.vue'
 // @ is an alias to /src
 console.log(process.env.NODE_ENV);
 export default {
+  components: { Signature },
   name: 'Home',
+  components:{
+    Signature,
+  },
   data() {
     return {
       posts:[
@@ -53,16 +54,5 @@ export default {
   },
 }
 </script>
-<style scoped lang="scss">
-.reason_icon{
-  width: 4.375rem;
-  height: 2.4375rem;
-  position: absolute;
-  right: 2.5rem;
-  img{
-    width: 100%;
-    height: 100%;
-  }
-}
-</style>
+
 
