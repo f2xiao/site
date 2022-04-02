@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/views/Home.vue'
-import Notes from '@/views/Notes.vue'
+import Posts from '@/views/Posts.vue'
 import Post from '@/views/Post.vue'
 
 Vue.use(VueRouter)
@@ -13,14 +13,17 @@ const routes = [
     component: Home
   },
   {
-    path: '/notes',
-    name: 'Notes',
+    path: '/posts',
+    name: 'Posts',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: Notes
+    component: Posts
   },
-  { path: '/posts/:id', component: Post, props: true }
+  {
+    path: '/posts/:fileName', component: Post, props:true
+    
+  }
  
 ]
 
