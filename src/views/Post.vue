@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>This component mounts `../posts/${file name which is passed through props}.md` as Vue component dynamically</h1>
     <h2>{{ title }}</h2>
     <component :is="dynamicComponent" />
      <Signature />

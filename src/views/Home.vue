@@ -44,10 +44,10 @@ export default {
     return {
       posts:[
         {
-          id: 'something'
+          id: 'Est atque quodam',
         },
         {
-          id: 'Post Title 2'
+          id: 'Post Title 2',
         }
       ]
     }

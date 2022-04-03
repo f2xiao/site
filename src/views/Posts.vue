@@ -1,9 +1,10 @@
 <template>
    <div class="posts">
        <h2>Posts</h2>
-       <li v-for="post in posts" :key="post.id" >
+       <div v-for="post in posts" :key="post.id" >
         <router-link  :to="{ path: '/posts/'+post.id, params: {fileName: post.id }}">{{post.id}}</router-link>
-      </li>
+       <p>{{post.des}}</p>
+      </div>
   </div>
 </template>
 
@@ -14,10 +15,12 @@ export default {
     return {
       posts:[
         {
-          id: 'Post Title 1'
+          id: 'Est atque quodam',
+          des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
         },
         {
-          id: 'Post Title 2'
+          id: 'Post Title 2',
+           des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
         }
       ]
     }
