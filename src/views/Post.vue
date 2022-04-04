@@ -2,7 +2,7 @@
   <div>
     <h2>{{ title }}</h2>
     <component :is="dynamicComponent" />
-     <Signature />
+    <Signature />
   </div>
 </template>
 
