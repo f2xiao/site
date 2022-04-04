@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "highlight.js": "^11.5.0",
     "markdown-it-highlightjs": "^3.6.0",
     "markdown-it-link-attributes": "^4.0.0",
     "vue": "^2.6.11",

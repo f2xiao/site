@@ -20,7 +20,9 @@ module.exports = {
             mode: [Mode.VUE_COMPONENT],
             markdownIt: markdownIt({ html: true })
               //enable inline code highlighting
-              .use(markdownItHlJs, { inline: true })
+              .use(markdownItHlJs, {
+                inline: true,
+              })
               // Each link parsed with this config will have the passed attributes.
               .use(markdownItLA, {
                 attrs: {

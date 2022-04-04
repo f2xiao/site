@@ -5,8 +5,7 @@
 </template>
 
 <style lang="scss" scoped>
- @import './assets/styles/reset.css';
- @import './assets/styles/new.css';
+ 
  #app{
    position: relative;
    max-width: 36rem;
