@@ -18,9 +18,9 @@
    <img src = "@/assets/triangle.svg" alt="divider"/>
    <div class="posts">
      <h2> <router-link to="/posts">Posts</router-link></h2>
-     <li v-for="post in posts" :key="post.title" >
+     <div v-for="post in posts" :key="post.title" >
       <router-link  :to="{ path: '/posts/'+post.title, params: {fileName: post.title }}">{{post.title}}</router-link>
-    </li>
+    </div>
    </div>
    <br>
    <br>
