@@ -1,0 +1,36 @@
+{
+    "posts": [
+        {
+            "title": "Est atque quodam",  
+            "tags": ["Vue.js", "frontend"],   
+            "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",  
+            "date": [2022, 4, 4]
+        }
+    ],
+    "projects": [
+        {
+            "title": "E-commence Site",  
+            "tags": ["Vue.js", "Node", "Express", "MongoDB","RESTFul API"],
+            "link": "#",   
+            "des": "A server-side rendering app, features including payment, authentication and product recommendations"  
+        },
+        {
+            "title": "Mber",  
+            "tags": ["React", "Firebase", "Redux", "Material UI"],
+            "link": "#",    
+            "des": "Uber clone, a serverless app. Features include real time chat, routes mapping"  
+        },
+        {
+            "title": "Algorithm Visualizer",  
+            "tags": ["JavaScript", "Sorting"],
+            "link": "#",   
+            "des": "Data Structure and Algorithms"  
+        },
+        {
+            "title": "JavaScript30",  
+            "tags": ["JavaScript", "HTML", "CSS"],
+            "link": "#",   
+            "des": "Various small apps implemented with Vanila JavaScript"  
+        }
+    ]
+}

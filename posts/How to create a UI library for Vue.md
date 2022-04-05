@@ -1,4 +1,9 @@
-# Create a UI library for Vue
+---
+title: Create your own Vue UI library
+tags:
+  - Vue.js
+  - UI library
+---
 There are 4 main steps to create a UI library for Vue:
 1. initiate the project
 2. create component files

@@ -31,9 +31,6 @@
 <script>
 import Signature from '@/components/Signature.vue';
 
-// import Notes from '../views/Notes.vue'
-// @ is an alias to /src
-console.log(process.env.NODE_ENV);
 export default {
   components: { Signature },
   name: 'Home',

@@ -9,6 +9,7 @@
 <script>
 import Signature from '@/components/Signature.vue';
   export default {
+    name: 'Post',
     props: ['fileName'],
      components:{
     Signature,
@@ -22,11 +23,11 @@ import Signature from '@/components/Signature.vue';
     created () {
       const markdown = require(`@/../posts/${this.fileName}.md`);
       this.title = markdown.attributes.title;
-      this.dynamicComponent = markdown.vue.component
-
+      document.title = this.title;
+      console.log(markdown.attributes.title);
+      this.dynamicComponent = markdown.vue.component;
       // Use Async Components for the benefit of code splitting
       // https://vuejs.org/v2/guide/components-dynamic-async.html#Async-Components
-    },
-    name: 'Post'
+    }
   }
 </script>

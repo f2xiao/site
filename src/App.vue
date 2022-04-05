@@ -5,7 +5,7 @@
 </template>
 
 <style lang="scss" scoped>
- 
+
  #app{
    position: relative;
    max-width: 38rem;
@@ -15,4 +15,5 @@
 </style>
 
 <script>
+
 </script>
