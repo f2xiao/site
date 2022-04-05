@@ -24,7 +24,6 @@ import Signature from '@/components/Signature.vue';
       const markdown = require(`@/../posts/${this.fileName}.md`);
       this.title = markdown.attributes.title;
       document.title = this.title;
-      console.log(markdown.attributes.title);
       this.dynamicComponent = markdown.vue.component;
       // Use Async Components for the benefit of code splitting
       // https://vuejs.org/v2/guide/components-dynamic-async.html#Async-Components

@@ -1,5 +1,6 @@
 ---
 title: Est atque quodam
+layout: default
 tags:
   - tag1
   - tag2

@@ -1,5 +1,6 @@
 ---
 title: Create your own Vue UI library
+layout: default
 tags:
   - Vue.js
   - UI library
