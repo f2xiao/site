@@ -35,4 +35,12 @@ body {
   a, a:visited, a:hover, a:active {
     text-decoration: underline;
     color: inherit;
+  }
+
+button{
+  color: #ABADB7;
+  background: none;
+  border: solid 1px;
+  border-radius: 4px;
+  margin: 0 1rem;
 }

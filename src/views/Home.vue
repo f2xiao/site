@@ -10,10 +10,7 @@
    <img src = "@/assets/triangle.svg" alt="divider"/>
    <div class="projects">
        <h2>Projects</h2>
-       <p><a href="#">Project Link</a></p>
-       <p><a href="#">Project Link</a></p>
-       <p><a href="#">Project Link</a></p>
-       <p><a href="#">Project Link</a></p>
+       <div v-for="project in projects" :key="project.title"><a href="#">{{project.title}}</a><button>{{project.tags.join()}}</button></div>
   </div>
    <img src = "@/assets/triangle.svg" alt="divider"/>
    <div class="posts">
@@ -39,17 +36,26 @@ export default {
   },
   data() {
     return {
-      posts:[
-        {
-          title: 'Est atque quodam',
-        },
-        {
-          title: 'How to create a UI library for Vue',
-        }
-      ]
+      posts:[],
+      projects:[]
     }
   },
+  created: function(fileName='data.json'){
+    let data = require(`@/../posts/${fileName}`);
+    data.posts.map(item=>this.posts.push(item))
+    data.projects.map(item=>this.projects.push(item))
+  }
 }
 </script>
-
+<style lang="scss">
+  .projects{
+    a, button{
+      display: inline-block;
+      height:100%;
+    }
+    a{
+      width: 10rem
+    }
+  }
+</style>
 

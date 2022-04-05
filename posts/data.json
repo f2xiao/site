@@ -1,11 +1,12 @@
 {
     "posts": [
         {
-            "title": "Est atque quodam",  
-            "tags": ["Vue.js", "frontend"],   
-            "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",  
-            "date": [2022, 4, 4]
+            "title": "Est atque quodam"
+        },
+        {
+            "title": "How to create a UI library for Vue"
         }
+        
     ],
     "projects": [
         {
