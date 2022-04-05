@@ -1,6 +1,7 @@
 ---
-title: Create your own Vue UI library
 layout: default
+date: 2022-04-05
+title: Create your own Vue UI library
 tags:
   - Vue.js
   - UI library
