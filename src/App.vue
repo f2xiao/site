@@ -5,12 +5,11 @@
 </template>
 
 <style lang="scss" scoped>
-
  #app{
    position: relative;
-   max-width: 38rem;
-   margin: 2rem auto;
-   padding: 2rem auto;
+   max-width: 36rem;
+   margin: 0 auto;
+   padding: 0 auto;
   }
 </style>
 

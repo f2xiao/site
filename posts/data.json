@@ -16,7 +16,7 @@
             "des": "A server-side rendering app, features including payment, authentication and product recommendations"  
         },
         {
-            "title": "Mber",  
+            "title": "Mber (Uber Clone)",  
             "tags": ["React", "Firebase", "Redux", "Material UI"],
             "link": "#",    
             "des": "Uber clone, a serverless app. Features include real time chat, routes mapping"  

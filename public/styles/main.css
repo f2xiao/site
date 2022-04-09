@@ -28,9 +28,9 @@ body {
     font-weight: normal;
   }
   
-  /* li{
+  ul,li{
     list-style: none;
-  } */
+  }
 
   a, a:visited, a:hover, a:active {
     text-decoration: underline;
