@@ -1,5 +1,8 @@
 <template>
    <div class="posts">
+     <a href="/" class="return">
+          <img src="@/assets/icons/arrow_narrow_left.svg" alt="Back to Home">
+      </a>
        <h2>Posts</h2>
        <div v-for="post in posts" :key="post.title" >
         <router-link  :to="{ path: '/posts/'+post.title, params: {fileName: post.title }}">{{post.title}}</router-link>
@@ -30,5 +33,9 @@ export default {
 </script>
 
 <style>
-
+.return{
+  display: inline-block;
+  width: 1rem;
+  background: pink;
+  }
 </style>

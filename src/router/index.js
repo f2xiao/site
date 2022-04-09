@@ -7,8 +7,10 @@ import Post from '@/views/Post.vue'
 Vue.use(VueRouter)
 
 const routes = [
+  { path: '/', redirect: '/home' }
+  ,
   {
-    path: '/',
+    path: '/home',
     name: 'Home',
     component: Home
   },

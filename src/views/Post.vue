@@ -1,5 +1,6 @@
 <template>
   <div>
+    <a class="styled-link" href="/" aria-label="Home">←</a>
     <h2>{{ title }}</h2>
     <component :is="dynamicComponent" />
     <Signature />
@@ -30,3 +31,13 @@ import Signature from '@/components/Signature.vue';
     }
   }
 </script>
+<style lang="scss">
+  .styled-link{
+    font-size: .7rem;
+    border-radius: 4px;
+    border: 1px solid;
+    padding: 3px 6px;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+</style>
