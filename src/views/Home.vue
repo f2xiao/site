@@ -51,6 +51,7 @@ export default {
     let data = require(`@/../posts/${fileName}`);
     data.posts.map(item=>this.posts.push(item))
     data.projects.map(item=>this.projects.push(item))
+    document.title = 'Fangfang';
   }
 }
 </script>
@@ -97,4 +98,8 @@ export default {
     }
   }
 </style>
+
+
+
+
 
