@@ -7,7 +7,7 @@
     Love Java's OPP concept, enjoy making UML diagrams and exploring design patterns. 
     </p>
     <p>
-       Formerly worked as an mechanical engineer in automotive industry, speciallied in CAD model and 2D drawings. Found passion in coding and started second career as a developer.
+       Formerly worked as an mechanical engineer in automotive industry, specialized in CAD modeling and process engineering. Found passion in coding and started second career as a developer.
     </p>
     <p>Also at <a href="https://github.com/f2xiao">Github</a>, <a href="#">CV</a>, <a href="#">Linkedin</a> </p>
   </div>
