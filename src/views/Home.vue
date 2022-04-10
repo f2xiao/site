@@ -62,7 +62,6 @@ export default {
   }
  }
   .projects{
-
     
    div{
     display: flex;
