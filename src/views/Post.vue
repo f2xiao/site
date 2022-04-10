@@ -1,20 +1,15 @@
 <template>
-  <div>
-    <a class="styled-link" href="/site/home" aria-label="Home">←</a>
+  <div class="post-view">
+     <a class="styled-link" href="/site/home" aria-label="Home">←</a>
     <h2>{{ title }}</h2>
     <component :is="dynamicComponent" />
-    <Signature />
   </div>
 </template>
 
 <script>
-import Signature from '@/components/Signature.vue';
   export default {
     name: 'Post',
     props: ['fileName'],
-     components:{
-    Signature,
-  },
     data () {
       return {
         title: null,
@@ -31,13 +26,3 @@ import Signature from '@/components/Signature.vue';
     }
   }
 </script>
-<style lang="scss">
-  .styled-link{
-    font-size: .7rem;
-    border-radius: 4px;
-    border: 1px solid;
-    padding: 3px 6px;
-    text-decoration: none;
-    vertical-align: middle;
-  }
-</style>

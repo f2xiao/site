@@ -11,7 +11,7 @@
     </p>
     <p>Also at <a href="https://github.com/f2xiao">Github</a>, <a href="#">CV</a>, <a href="#">Linkedin</a> </p>
   </div>
-   <img src = "@/assets/triangle.svg" alt="divider"/>
+   
    <div class="projects">
        <h2>Projects</h2>
        <div v-for="project in projects" :key="project.title">
@@ -19,28 +19,19 @@
          <span class="right">{{project.tags.join()}}</span>
       </div>
   </div>
-   <img src = "@/assets/triangle.svg" alt="divider"/>
    <div class="posts">
      <h2> <router-link to="/posts">Posts</router-link></h2>
      <div v-for="post in posts" :key="post.title" >
       <router-link  :to="{ path: '/posts/'+post.title, params: {fileName: post.title }}">{{post.title}}</router-link>
     </div>
    </div>
-   <br>
-   <br>
-   
-  <Signature />
   </div>
 </template>
 <script>
-import Signature from '@/components/Signature.vue';
+
 
 export default {
-  components: { Signature },
   name: 'Home',
-  components:{
-    Signature,
-  },
   data() {
     return {
       posts:[],
@@ -58,7 +49,7 @@ export default {
 <style lang="scss">
  @media screen and (max-width: 480px) {
   header{
-    padding-top: 0.5em;
+    // padding-top: 0.5em;
   }
  }
   .projects{
@@ -92,7 +83,7 @@ export default {
 }
 
     a, span{
-      margin: 0.25em 0;
+      // margin: 0.25em 0;
       vertical-align: middle;
     }
   }

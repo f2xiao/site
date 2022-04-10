@@ -1,12 +1,17 @@
 :root{
-  --backgroundColor:white;
-  --textColor: #303030;
+  /* font-size */
+  --font-16: 16px;
+
+  /* color for dark theme */
+  --backgroundColor:#1b1c1b;
+  --textColor: #dbdfdf;
 }
 
-@media (prefers-color-scehme: dark){
+@media (prefers-color-scehme: light){
+   /* color for dark theme */
   :root{
-    --backgroundColor:#1b1c1b;
-    --textColor: #dbdfdf;
+  --backgroundColor:white;
+  --textColor: #303030;
   }
 }
 
@@ -14,29 +19,29 @@ body {
     background: var(--backgroundColor);
     color: var(--textColor);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.65rem;
+    line-height: 1.65em;
     padding: 0 2.5em;
     margin: 0;
     font-size: 16px;
     word-wrap: break-word;
   }
   header {
-    padding-top: 2.5em;
+    /* padding-top: 2.5em; */
   }
   
   footer {
     border-top: 1px solid #ccc;
-    padding-top: 1em;
-    padding-bottom: 2.5em;
+    /* padding-top: 1em;
+    padding-bottom: 2.5em; */
+  }
+
+  footer span{
+    float: right;
   }
   
-  main {
-    padding-top: 1em;
-    padding-bottom: 3em;
-  }
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Readex Pro', sans-serif;
-    margin: 1.4em 0 1em 0;
+    /* margin: 1.4em 0 1.4em 0; */
     font-weight: normal;
   }
   
@@ -49,10 +54,16 @@ body {
     color: inherit;
   }
 
-button{
-  color: #ABADB7;
-  background: none;
-  border: solid 1px;
+
+.styled-link{
+  /* font-size: .7em; */
   border-radius: 4px;
-  margin: 0 1rem;
+  border: 1px solid;
+  padding: 3px 6px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.posts-view, .post-view{
+  /* padding: 2em 0; */
 }
