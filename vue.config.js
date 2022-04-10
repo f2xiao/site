@@ -8,7 +8,7 @@ const markdownItHlJs = require('markdown-it-highlightjs')
 const markdownItLA = require('markdown-it-link-attributes')
 
 module.exports = {
-  publicPath: "/",
+  publicPath: "/site",
   configureWebpack: {
     module: {
       rules: [
