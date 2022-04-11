@@ -1,6 +1,6 @@
 <template>
    <div class="posts-view">
-      <a class="styled-link" href="/home" aria-label="Home">←</a>
+      <a class="styled-link" href="/site/home" aria-label="Home">←</a>
        <h2>Posts</h2>
        <div v-for="post in posts" :key="post.title" >
         <router-link  :to="{ path: '/posts/'+post.title, params: {fileName: post.title }}">{{post.title}}</router-link>
