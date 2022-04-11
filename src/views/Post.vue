@@ -1,6 +1,6 @@
 <template>
   <div class="post-view">
-     <a class="styled-link" href="/site/home" aria-label="Home">←</a>
+     <a class="styled-link" href="/home" aria-label="Home">←</a>
     <h2>{{ title }}</h2>
     <component :is="dynamicComponent" />
   </div>
