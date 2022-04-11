@@ -1,15 +1,20 @@
-:root{
+[theme=dark]{
   /* font-size */
   --font-16: 16px;
 
-  /* color for dark theme */
+  /* color for dark theme, default*/
   --backgroundColor:#1b1c1b;
   --textColor: #dbdfdf;
 }
 
+[theme=light]{
+  --backgroundColor:white;
+  --textColor: #303030;
+}
+
 @media (prefers-color-scehme: light){
-   /* color for dark theme */
-  :root{
+   /* color for light theme, if user prefers */
+  :root {
   --backgroundColor:white;
   --textColor: #303030;
   }
