@@ -72,3 +72,8 @@ body {
 .posts-view, .post-view{
   /* padding: 2em 0; */
 }
+
+.tag{
+  border: 1px solid #C4C4C4;
+  border-radius: 4px;
+}

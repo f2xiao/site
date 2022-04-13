@@ -33,4 +33,26 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', eve
     const newColorScheme = event.matches ? "dark" : "light";
     setTheme(newColorScheme);
 });
+export default{
+   data() {
+    return {
+      posts:[],
+      projects:[],
+    }
+  },
+  created: function(fileName='data.json'){
+    let data = require(`@/../posts/${fileName}`);
+
+    // store posts at local
+    data.posts.map(item=>this.posts.push(item));
+    // store posts to store
+    this.$store.commit("posts/getPosts", this.posts);
+
+    data.projects.map(item=>this.projects.push(item));
+    this.$store.commit("posts/getProjects", this.projects);
+
+    document.title = 'Fangfang';
+    
+  }
+}
 </script>

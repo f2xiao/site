@@ -2,7 +2,7 @@
     "posts": [
         {
             "title": "Est atque quodam",
-            "tag":["test1","test2"]
+            "tag":["frontend","UI"]
         },
         {
             "title": "How to create a UI library for Vue",
@@ -10,7 +10,11 @@
         },
         {
             "title": "Keychron Q1 mods",
-            "tag":["Mechanical Keyboard","hobbies"]
+            "tag":["Mechanical Keyboard","hobbies", "review"]
+        },
+        {
+            "title": "Keychron Q8",
+            "tag":["Mechanical Keyboard","hobbies", "review"]
         }
     ],
     "projects": [

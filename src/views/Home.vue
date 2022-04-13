@@ -16,7 +16,7 @@
        <h2>Projects</h2>
        <div v-for="project in projects" :key="project.title">
          <a class="left" href="#">{{project.title}}</a>
-         <span class="right">{{project.tags.join()}}</span>
+         <span class="right tag">{{project.tags.join()}}</span>
       </div>
   </div>
    <div class="posts">
@@ -32,18 +32,13 @@
 
 export default {
   name: 'Home',
-  data() {
-    return {
-      posts:[],
-      projects:[],
+  computed:{
+    posts(){
+      return this.$store.state.posts.posts;
+    },
+    projects(){
+      return this.$store.state.posts.projects;
     }
-  },
-  created: function(fileName='data.json'){
-    let data = require(`@/../posts/${fileName}`);
-    data.posts.map(item=>this.posts.push(item));
-    data.projects.map(item=>this.projects.push(item));
-    document.title = 'Fangfang';
-    this.$store.commit("posts/getData", this.posts);
   }
 }
 </script>
@@ -68,8 +63,6 @@ export default {
     .right{
       position: absolute;
        padding: 0 2%;
-       border: 1px solid #C4C4C4;
-       border-radius: 4px;
        color: #ABADB7;
        right: 0;
     }
