@@ -9,12 +9,13 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    redirect:'/home'
+    name: 'Home',
+    component: Home
+    
   },
   {
     path: '/home',
-    name: 'Home',
-    component: Home
+    redirect:'/'
   },
   {
     path: '/posts',
@@ -32,7 +33,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: process.env.BASE_URL,
   routes
 })
