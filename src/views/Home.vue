@@ -4,7 +4,7 @@
    <header><h1>Fangfang</h1></header>
     <p><strong>Self-taught Fullstack Developer.</strong>
     Enjoy buidling website. Write JavaScript, HTML, CSS and Java.
-    Love Java's OPP concept, enjoy making UML diagrams and exploring design patterns. 
+    Love Java's OOP concept, enjoy making UML diagrams and exploring design patterns. 
     </p>
     <p>
        Formerly worked as an mechanical engineer in automotive industry, specialized in CAD modeling and process engineering. Found passion in coding and started second career as a developer.
