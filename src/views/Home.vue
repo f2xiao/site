@@ -34,10 +34,10 @@ export default {
   name: 'Home',
   computed:{
     posts(){
-      return this.$store.state.posts.posts;
+      return this.$store.state.posts;
     },
     projects(){
-      return this.$store.state.posts.projects;
+      return this.$store.state.projects;
     }
   }
 }

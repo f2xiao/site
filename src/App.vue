@@ -45,11 +45,13 @@ export default{
 
     // store posts at local
     data.posts.map(item=>this.posts.push(item));
-    // store posts to store
-    this.$store.commit("posts/getPosts", this.posts);
+    // store posts and tags to store
+    this.$store.commit("viewposts/init",this.posts);
+    this.$store.commit("getPosts");
+   
 
     data.projects.map(item=>this.projects.push(item));
-    this.$store.commit("posts/getProjects", this.projects);
+    this.$store.commit("getProjects", this.projects);
 
     document.title = 'Fangfang';
     

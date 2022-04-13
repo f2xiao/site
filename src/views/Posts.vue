@@ -6,7 +6,7 @@
          <span class="tag" v-for="(value, name) in tags" :key="name">#{{name}} ({{value}}) </span>
 
        </div>
-       <div v-for="post in posts" :key="post.title" >
+       <div v-for="post in viewposts" :key="post.title" >
         <router-link  :to="{ path: '/posts/'+post.title, params: {fileName: post.title }}">{{post.title}}</router-link>
        <p>{{post.des}}</p>
       </div>
@@ -17,11 +17,11 @@
 export default {
     name: 'Posts',
   computed:{
-    posts(){
-      return this.$store.state.posts.posts;
+    viewposts(){
+      return this.$store.state.viewposts.viewposts;
     },
     tags(){
-      return this.$store.state.posts.tagsMap;
+      return this.$store.state.viewposts.tagsMap;
     }
   }
 }
