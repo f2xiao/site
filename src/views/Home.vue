@@ -16,7 +16,7 @@
        <h2>Projects</h2>
        <div v-for="project in projects" :key="project.title">
          <a class="left" href="#">{{project.title}}</a>
-         <span class="right tag">{{project.tags.join()}}</span>
+        <button class="right disabled"> <span >{{project.tags.join()}}</span></button>
       </div>
   </div>
    <div class="posts">
@@ -62,9 +62,8 @@ export default {
 
     .right{
       position: absolute;
-       padding: 0 2%;
-       color: #ABADB7;
-       right: 0;
+      // padding: 0 1%;
+      right: 0;
     }
 
   @media screen and (max-width: 480px) {
@@ -74,8 +73,6 @@ export default {
   .right{
     position: inherit;
     font-size: 0.8em;
-    border:0;
-    padding:0;
   }
 }
 

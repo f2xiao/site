@@ -81,3 +81,14 @@ body {
 .notshow{
   display: none;
 }
+
+.show{
+  background-color: var(--tag-show);
+}
+
+.disabled{
+  pointer-events: none;
+  cursor: not-allowed;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
