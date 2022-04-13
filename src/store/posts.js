@@ -2,6 +2,7 @@ export default {
     namespaced: true,
     state: {
         tags: [],
+        tagsMap:{},
         posts:[]
     },
     mutations: {
