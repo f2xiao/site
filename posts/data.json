@@ -2,15 +2,24 @@
     "posts": [
         {
             "title": "Est atque quodam",
-            "tag":["frontend","UI"]
+            "show": true,
+            "tag":["test"]
         },
         {
-            "title": "How to create a UI library for Vue",
-            "tag":["Vuejs","UI", "frontend"]
+            "title": "Looking for a job",
+            "show": true,
+            "tag":["life", "frontend"]
         },
         {
             "title": "Keychron Q1 mods",
+            "show": true,
             "tag":["Mechanical Keyboard","hobbies", "reviews"]
+        },
+        
+        {
+            "title": "How to create a UI library for Vue",
+            "show": true,
+            "tag":["Vuejs","UI", "frontend"]
         }
     ],
     "projects": [

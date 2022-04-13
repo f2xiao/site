@@ -13,7 +13,7 @@ export default new Vuex.Store({
   mutations: {
     getProjects(state, newProjects) {
       state.projects = newProjects;
-      console.log(state.projects);
+      // console.log(state.projects);
     },
     getPosts(state) {
       state.posts = state.viewposts.viewposts.slice(state.viewposts.viewposts.length-2);
