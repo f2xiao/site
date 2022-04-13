@@ -12,20 +12,11 @@
 <script>
 export default {
     name: 'Posts',
-    data() {
-    return {
-      posts:[
-        {
-          title: 'Est atque quodam',
-          des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
-        },
-        {
-          title: 'How to create a UI library for Vue',
-           des: "How to create a UI library for Vue"
-        }
-      ]
+  computed:{
+    posts(){
+      return this.$store.state.tags.posts;
     }
-  },
+  }
 }
 
 </script>

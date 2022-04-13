@@ -40,9 +40,10 @@ export default {
   },
   created: function(fileName='data.json'){
     let data = require(`@/../posts/${fileName}`);
-    data.posts.map(item=>this.posts.push(item))
-    data.projects.map(item=>this.projects.push(item))
+    data.posts.map(item=>this.posts.push(item));
+    data.projects.map(item=>this.projects.push(item));
     document.title = 'Fangfang';
+    this.$store.commit("tags/getData", this.posts);
   }
 }
 </script>
