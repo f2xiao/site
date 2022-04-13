@@ -1,13 +1,15 @@
 export default {
     namespaced: true,
     state: {
-        tags: null,
+        tags: [],
         posts:[]
     },
     mutations: {
         getData(state, newData) {
-            console.log(newData);
             state.posts = newData;
+            console.log(state.posts);
+            state.posts.map(item => state.tags.push(...item.tag));
+            console.log(state.tags);
         }
     },
     actions: {

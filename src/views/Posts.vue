@@ -14,7 +14,7 @@ export default {
     name: 'Posts',
   computed:{
     posts(){
-      return this.$store.state.tags.posts;
+      return this.$store.state.posts.posts;
     }
   }
 }
