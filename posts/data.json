@@ -1,12 +1,17 @@
 {
     "posts": [
         {
-            "title": "Est atque quodam"
+            "title": "Est atque quodam",
+            "tag":["test1","test2"]
         },
         {
-            "title": "How to create a UI library for Vue"
+            "title": "How to create a UI library for Vue",
+            "tag":["Vuejs","UI", "frontend"]
+        },
+        {
+            "title": "Keychron Q1 mods",
+            "tag":["Mechanical Keyboard","hobbies"]
         }
-        
     ],
     "projects": [
         {

@@ -9,7 +9,7 @@
     <p>
        Formerly worked as an mechanical engineer in automotive industry, specialized in CAD modeling and process engineering. Found passion in coding and started second career as a developer.
     </p>
-    <p>Also at <a href="https://github.com/f2xiao">Github</a>, <a href="#">CV</a>, <a href="#">Linkedin</a> </p>
+    <p>Also at <a href="https://github.com/f2xiao">Github</a>, <a href="#">CV</a>, <a href="#">LeetCode</a> </p>, <a href="#">Linkedin</a> </p>
   </div>
    
    <div class="projects">
@@ -35,7 +35,7 @@ export default {
   data() {
     return {
       posts:[],
-      projects:[]
+      projects:[],
     }
   },
   created: function(fileName='data.json'){
