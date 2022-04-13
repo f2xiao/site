@@ -66,17 +66,20 @@ export default {
     }
 
     .right{
+      position: absolute;
        padding: 0 2%;
        border: 1px solid #C4C4C4;
        border-radius: 4px;
        color: #ABADB7;
+       right: 0;
     }
 
   @media screen and (max-width: 480px) {
   .left {
-    min-width: 80%;
+    min-width: 100%;
   }
   .right{
+    position: inherit;
     font-size: 0.8em;
     border:0;
     padding:0;
