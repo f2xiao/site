@@ -8,8 +8,13 @@
            <span @click="showTaggedPosts(name)">#{{name}} ({{value.count}})</span> 
         </button>
        </div>
-       <div :class="{ notshow: !post.show }" v-for="post in viewposts" :key="post.title" >
-        <router-link  :to="{ path: '/posts/'+post.title, params: {fileName: post.title }}">{{post.title}}</router-link>
+       <div 
+       :class="{ notshow: !post.show }" 
+       v-for="post in viewposts" 
+       :key="post.title" >
+        <router-link  
+        :to="{ path: '/posts/'+post.title, params: {fileName: post.title }}">
+        {{post.title}}</router-link>
        <p>{{post.des}}</p>
       </div>
   </div>

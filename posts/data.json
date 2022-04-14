@@ -41,10 +41,24 @@
             "des": "Data Structure and Algorithms"  
         },
         {
-            "title": "JavaScript30",  
+            "title": "Three Pillars of Frontend ",  
             "tags": ["JavaScript", "HTML", "CSS"],
             "link": "#",   
-            "des": "Various small apps implemented with Vanila JavaScript"  
+            "des": "Various small apps implemented with just HTML, CSS and JavaScript"  
+        }
+    ],
+    "threePillars":[
+        {
+            "title":"Etch-A-Sketch",
+            "des":"Sketch pad, hover mouse on desktop and just draw with finger or fingers on mobile devices"
+        },
+        {
+            "title":"Calculator",
+            "des":"Three themes calculator"
+        },
+        {
+            "title":"Carousel Cards",
+            "des":"No JavaScript, CSS only!"
         }
     ]
 }
