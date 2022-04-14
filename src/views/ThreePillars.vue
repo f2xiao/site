@@ -12,6 +12,9 @@
 
 <script>
 import Card from "@/components/card"
+
+
+
 export default {
     name:"ThreePillars",
     components:{
@@ -21,6 +24,9 @@ export default {
         apps(){
             return this.$store.state.threePillarsProjects
         }
+    },
+    created: function(){
+        document.title = "Three Pillars of Frontend"
     }
 }
 </script>

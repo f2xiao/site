@@ -45,6 +45,9 @@ export default {
      showAll(){
        this.viewposts.forEach(post => post.show=true )
      }
+  },
+  created: function(){
+    document.title = "Fangfang | Posts"
   }
 }
 
