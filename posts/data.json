@@ -1,11 +1,6 @@
 {
     "posts": [
         {
-            "title": "Looking for a job",
-            "show": true,
-            "tag":["life", "frontend"]
-        },
-        {
             "title": "How to create a UI library for Vue",
             "show": true,
             "tag":["Vuejs","UI", "frontend"]
