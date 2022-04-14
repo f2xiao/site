@@ -6,16 +6,6 @@
             "tag":["life", "frontend"]
         },
         {
-            "title": "Keychron Q1 mods",
-            "show": true,
-            "tag":["Mechanical Keyboard","hobbies", "reviews"]
-        },
-        {
-            "title": "Est atque quodam",
-            "show": true,
-            "tag":["test"]
-        },
-        {
             "title": "How to create a UI library for Vue",
             "show": true,
             "tag":["Vuejs","UI", "frontend"]
@@ -50,23 +40,21 @@
     "threePillarsProjects":[
         {
             "title":"Etch-A-Sketch",
-            "link":"#",
+            "link":"https://f2xiao.github.io/etch-a-sketch/",
+            "img":"etch-a-sketch.gif",
             "des":"Sketch pad, to draw: 1. selesct a color 2-1. hover mouse on desktop 2-2. swipe with finger or fingers on mobile devices"
         },
         {
             "title":"Calculator",
-            "link":"#",
+            "link":"https://f2xiao.github.io/Calculator-App/",
+            "img":"calculator.jpg",
             "des":"Three themes calculator"
         },
         {
             "title":"JavaScript30",
-            "link":"#",
+            "link":"https://f2xiao.github.io/JavaScript30/",
+            "img":"JavaScript30.png",
             "des":"Mostly JavaScript, some CSS!"
-        },
-        {
-            "title":"Carousel Cards",
-            "link":"#",
-            "des":"No JavaScript, CSS only!"
         }
     ]
 }
