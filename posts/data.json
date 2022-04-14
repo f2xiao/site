@@ -43,21 +43,24 @@
         {
             "title": "Three Pillars of Frontend ",  
             "tags": ["JavaScript", "HTML", "CSS"],
-            "link": "#",   
+            "link": "/site/three-pillars-of-frontend",   
             "des": "Various small apps implemented with just HTML, CSS and JavaScript"  
         }
     ],
-    "threePillars":[
+    "threePillarsProject":[
         {
             "title":"Etch-A-Sketch",
+            "link":"#",
             "des":"Sketch pad, hover mouse on desktop and just draw with finger or fingers on mobile devices"
         },
         {
             "title":"Calculator",
+            "link":"#",
             "des":"Three themes calculator"
         },
         {
             "title":"Carousel Cards",
+            "link":"#",
             "des":"No JavaScript, CSS only!"
         }
     ]

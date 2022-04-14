@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '@/views/Home.vue'
 import Posts from '@/views/Posts.vue'
 import Post from '@/views/Post.vue'
+import ThreePillars from '@/views/ThreePillars.vue'
 import NotFound from '@/views/errors/NotFound.vue'
 
 Vue.use(VueRouter)
@@ -29,6 +30,9 @@ const routes = [
   {
     path: '/posts/:fileName', component: Post, props:true
     
+  },
+  {
+    path: '/three-pillars-of-frontend', component: ThreePillars,props:true
   },
   {
     path: '*',

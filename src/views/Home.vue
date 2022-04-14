@@ -14,8 +14,8 @@
    
    <div class="projects">
        <h2>Projects</h2>
-       <div v-for="project in projects" :key="project.title">
-         <a class="left" href="#">{{project.title}}</a>
+       <div v-for="project in projects.slice(0, projects.length)" :key="project.title">
+         <a class="left" :href="project.link">{{project.title}}</a>
         <button class="right disabled"> <span >{{project.tags.join()}}</span></button>
       </div>
   </div>

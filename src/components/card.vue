@@ -1,7 +1,7 @@
 <template>
   <div class="card">
       <div class="text">
-          <h1>Title</h1>
+          <h1>{{app.title}}</h1>
           <p>des</p>
       </div>
       <div>
@@ -12,6 +12,7 @@
 
 <script>
 export default {
+    props:['app'],
     name: 'Card'
 }
 </script>
