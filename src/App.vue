@@ -38,6 +38,7 @@ export default{
     return {
       posts:[],
       projects:[],
+      threePillarsProjects:[]
     }
   },
   created: function(fileName='data.json'){
@@ -49,9 +50,15 @@ export default{
     this.$store.commit("viewposts/init",this.posts);
     this.$store.commit("getPosts");
    
-
+    // store projects at local
     data.projects.map(item=>this.projects.push(item));
+    // store projects to store
     this.$store.commit("getProjects", this.projects);
+
+     // store projects at local
+    data.threePillarsProjects.map(item=>this.threePillarsProjects.push(item));
+    // store projects to store
+    this.$store.commit("getThreePillarsProjects", this.threePillarsProjects);
 
     document.title = 'Fangfang';
     

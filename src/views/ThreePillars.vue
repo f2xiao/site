@@ -17,26 +17,10 @@ export default {
     components:{
         Card
     },
-    data() {
-        return {
-            apps:[
-        {
-            "title":"Etch-A-Sketch",
-            "link":"#",
-            "des":"Sketch pad, hover mouse on desktop and just draw with finger or fingers on mobile devices"
-        },
-        {
-            "title":"Calculator",
-            "link":"#",
-            "des":"Three themes calculator"
-        },
-        {
-            "title":"Carousel Cards",
-            "link":"#",
-            "des":"No JavaScript, CSS only!"
+    computed:{
+        apps(){
+            return this.$store.state.threePillarsProjects
         }
-    ]
-        }
-    },
+    }
 }
 </script>

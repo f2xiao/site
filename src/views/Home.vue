@@ -14,9 +14,13 @@
    
    <div class="projects">
        <h2>Projects</h2>
-       <div v-for="project in projects.slice(0, projects.length)" :key="project.title">
+       <div v-for="project in projects.slice(0, 3)" :key="project.title">
          <a class="left" :href="project.link">{{project.title}}</a>
         <button class="right disabled"> <span >{{project.tags.join()}}</span></button>
+      </div>
+       <div>
+         <router-link class="left" :to="projects[3].link">{{projects[3].title}}</router-link>
+        <button class="right disabled"> <span >{{projects[3].tags.join()}}</span></button>
       </div>
   </div>
    <div class="posts">

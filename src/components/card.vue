@@ -1,11 +1,11 @@
 <template>
   <div class="card">
+       <div>
+          <img src="" alt="" >
+      </div>
       <div class="text">
           <h1>{{app.title}}</h1>
-          <p>des</p>
-      </div>
-      <div>
-          <img src="" alt="" >
+          <p>{{app.des}}</p>
       </div>
   </div>
 </template>
@@ -19,6 +19,6 @@ export default {
 
 <style>
 .card{
-    background: pink;
+    background: white;
 }
 </style>

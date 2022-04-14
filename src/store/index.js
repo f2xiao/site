@@ -8,11 +8,16 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: () => ({
     projects: [],
-    posts:[],
+    posts: [],
+    threePillarsProjects:[]
   }),
   mutations: {
     getProjects(state, newProjects) {
       state.projects = newProjects;
+      // console.log(state.projects);
+    },
+    getThreePillarsProjects(state, newProjects) {
+      state.threePillarsProjects = newProjects;
       // console.log(state.projects);
     },
     getPosts(state) {
