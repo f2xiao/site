@@ -1,6 +1,6 @@
 # site
 
-source code for ![my site](https://f2xiao.github.io/site).
+source code for [my site](https://f2xiao.github.io/site).
 
 # Development
 
