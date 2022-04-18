@@ -1,19 +1,12 @@
 # site
 
-## Project setup
-```
-npm install
-```
+source code for my site.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Disclaimer: 
+Code is under MIT license.
+Articles and data under folder posts are copyright.
+Logos: logical_reason.svg and triangle.svg under src/assets that created by myself are copyright.
+Copyright (c) <2022>, <Fangfang Xiao>
+All rights reserved.
+ 
