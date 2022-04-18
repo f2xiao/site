@@ -1,17 +1,17 @@
 # site
 
-source code for my site.
+source code for ![my site](https://f2xiao.github.io/site).
+
+# Development
 
 
-Disclaimer: 
 
-Code is under MIT license.
+# License
 
-Articles and data under folder posts are copyright.
+The following directories and their contents are Copyright (c) 2022, Fangfang Xiao. You may not reuse anything therein without my permission:
 
-Logos that are created by myself are copyright, such as logical_reason.svg and triangle.svg under src/assets .
+```
+posts
+src/assets
+```
 
-Copyright (c) 2022, Fangfang Xiao 
-
-All rights reserved.
- 
