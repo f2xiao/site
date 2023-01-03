@@ -1,7 +1,7 @@
 <template>
    <div>
       <a class="styled-link" href="/site" aria-label="Home">←</a>
-       <h2>Three Pillars of Frontend</h2>
+       <h2>Mini JavaScript Apps</h2>
        <div 
        v-for="app in apps" 
        :key="app.title" >
@@ -16,7 +16,7 @@ import Card from "@/components/card"
 
 
 export default {
-    name:"ThreePillars",
+    name:"MiniJavaScriptApps",
     components:{
         Card
     },
@@ -26,7 +26,7 @@ export default {
         }
     },
     created: function(){
-        document.title = "Three Pillars of Frontend"
+        document.title = "Mini JavaScript Apps"
     }
 }
 </script>

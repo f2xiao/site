@@ -1,3 +1,12 @@
+---
+layout: default
+date: 2022-10-05
+title: Learn Docker - Basic
+tags:
+  - Docker
+  - DevOps
+---
+
 # Cheatsheet
 
 `docker build -t <imageTagName> <host-path-that-contains-dockerfile>`

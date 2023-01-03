@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '@/views/Home.vue'
 import Posts from '@/views/Posts.vue'
 import Post from '@/views/Post.vue'
-import ThreePillars from '@/views/ThreePillars.vue'
+import MiniJavaScriptApps from '@/views/MiniJavaScriptApps.vue'
 import NotFound from '@/views/errors/NotFound.vue'
 
 Vue.use(VueRouter)
@@ -32,7 +32,7 @@ const routes = [
     
   },
   {
-    path: '/three-pillars-of-frontend', component: ThreePillars,props:true
+    path: '/mini-javascript-apps', component: MiniJavaScriptApps,props:true
   },
   {
     path: '*',

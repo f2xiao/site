@@ -2,28 +2,29 @@
   <div class="home">
     <div class="Intro">
    <header><h1>Fangfang</h1></header>
-    <p><strong>Self-taught Fullstack Developer.</strong>
-    Enjoy buidling website. Write JavaScript, HTML, CSS and Java.
-    Love Java's OOP concept, enjoy making UML diagrams and exploring design patterns. 
+    <p><strong>Self-taught JavaScript Fullstack Developer.</strong>
+    Enjoy buidling apps. Write JavaScript, HTML and CSS.
+    Love the idea of OOP and abstraction of complex concepts. Currently learning Nodejs and reviewing React, plan to learn Flutter in the future.  
     </p>
     <p>
-       Formerly worked as an mechanical engineer in automotive industry, specialized in CAD modeling and process engineering. Found passion in coding and started second career as a developer.
+       Formerly worked as an mechanical engineer in automotive industry, specialized in CAD modeling and process engineering. Found passion in coding and started the path as a developer.
     </p>
-    <p>Also at <a href="https://github.com/f2xiao">Github</a>, <a href="#">CV</a>, <a href="#">LeetCode</a>, <a href="#">Linkedin</a> </p>
+    <p>When not coding, I play games (mostly Fortnite), make food and spend time with my family as much as possible.</p>
+    <p>Know me more, at <a href="https://github.com/f2xiao">Github</a>, <a href="#">CV</a>, <a href="#">LeetCode</a>, <a href="#">Linkedin</a> </p>
   </div>
-   
    <div class="projects">
        <h2>Projects</h2>
-       <div v-for="project in projects.slice(0, 3)" :key="project.title">
+        <div>
+         <router-link class="left" :to="projects[0].link">{{projects[0].title}}</router-link>
+        <button class="right disabled"> <span >{{projects[0].tags.join()}}</span></button>
+      </div>
+       <div v-for="project in projects.slice(1)" :key="project.title">
          <a class="left" :href="project.link">{{project.title}}</a>
         <button class="right disabled"> <span >{{project.tags.join()}}</span></button>
       </div>
-       <div>
-         <router-link class="left" :to="projects[3].link">{{projects[3].title}}</router-link>
-        <button class="right disabled"> <span >{{projects[3].tags.join()}}</span></button>
-      </div>
+      
   </div>
-   <div class="posts">
+   <div class="posts" v-bind:style="{'padding':'2.5rem 0'}">
      <h2> <router-link to="/posts">Posts</router-link></h2>
      <div v-for="post in posts" :key="post.title" >
       <router-link  :to="{ path: '/posts/'+post.title, params: {fileName: post.title }}">{{post.title}}</router-link>

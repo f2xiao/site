@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <router-view />
-   <footer> <span>F2xiao</span></footer>
+   <footer v-bind:style="{'text-align':'right'}"> <img width="50px" height="50px" v-bind:style="{'border-radius': '50%'}" src="./assets/icons/cat.svg" alt="My Cat"></footer>
   </div>
+  
 </template>
 
 <style lang="scss" scoped>
@@ -10,7 +11,6 @@
    position: relative;
    max-width: 36em;
    margin: 0 auto;
-   padding: 0 auto;
   //  padding-bottom: 2rem;
 }
 
