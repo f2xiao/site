@@ -34,13 +34,6 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', eve
     setTheme(newColorScheme);
 });
 export default{
-   data() {
-    return {
-      posts:[],
-      projects:[],
-      miniJavaScriptApps:[]
-    }
-  },
   created: function(){
     document.title = 'Fangfang';
   }

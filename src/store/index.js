@@ -11,7 +11,7 @@ export default new Vuex.Store({
   state: () => ({
     projects: data.projects,
     posts: data.posts,
-    threePillarsProjects:data.miniJavaScriptApps
+    miniJavaScriptApps:data.miniJavaScriptApps
   }),
   modules: {
     viewposts,

@@ -12,7 +12,7 @@
 
 <script>
 import Card from "@/components/card"
-
+import { mapState } from 'vuex'
 
 
 export default {
@@ -20,11 +20,9 @@ export default {
     components:{
         Card
     },
-    computed:{
-        apps(){
-            return this.$store.state.threePillarsProjects
-        }
-    },
+    computed:mapState({
+    apps: state => state.miniJavaScriptApps
+  }),
     created: function(){
         document.title = "Mini JavaScript Apps"
     }
