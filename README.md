@@ -4,7 +4,35 @@ source code for [my site](https://f2xiao.github.io/site)
 
 # Development
 
+```mermaid
+---
+title: App Store
+---
+classDiagram
+  class State
+  State : projects
+  State : posts
+  State : threePillarsProjects
+  class Mutations
+  Mutations : getProjects
+  Mutations : getPosts 
+  Mutations : getThreePillarsProjects
+  class modules
+  modules: viewposts
+```
 
+```mermaid
+---
+title: viewposts
+---
+classDiagram
+  class State
+  State : tags
+  State : tagsMap
+  State : viewposts
+  class Mutations
+  Mutations : init
+```
 
 # License
 

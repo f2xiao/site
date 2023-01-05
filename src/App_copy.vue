@@ -41,8 +41,27 @@ export default{
       miniJavaScriptApps:[]
     }
   },
-  created: function(){
+  created: function(fileName='data.json'){
+    let data = require(`@/../posts/${fileName}`);
+
+    // store posts at local
+    data.posts.map(item=>this.posts.push(item));
+    // store posts and tags to store
+    this.$store.commit("viewposts/init",this.posts);
+    this.$store.commit("getPosts");
+   
+    // store projects at local
+    data.projects.map(item=>this.projects.push(item));
+    // store projects to store
+    this.$store.commit("getProjects", this.projects);
+
+     // store projects at local
+    data.miniJavaScriptApps.map(item=>this.miniJavaScriptApps.push(item));
+    // store projects to store
+    this.$store.commit("getThreePillarsProjects", this.miniJavaScriptApps);
+
     document.title = 'Fangfang';
+    
   }
 }
 </script>
