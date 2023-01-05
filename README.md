@@ -12,11 +12,7 @@ classDiagram
   class State
   State : projects
   State : posts
-  State : threePillarsProjects
-  class Mutations
-  Mutations : getProjects
-  Mutations : getPosts 
-  Mutations : getThreePillarsProjects
+  State : miniJavaScriptApps
   class modules
   modules: viewposts
 ```

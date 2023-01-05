@@ -38,14 +38,6 @@ import { mapState } from 'vuex'
 
 export default {
   name: 'Home',
-  // computed:{
-  //   posts(){
-  //     return this.$store.state.posts;
-  //   },
-  //   projects(){
-  //     return this.$store.state.projects;
-  //   }
-  // }
   computed: mapState([
     'posts',
     'projects'
