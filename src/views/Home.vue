@@ -9,7 +9,7 @@
     <p>
        Formerly worked as an mechanical engineer in automotive industry, specialized in CAD modeling and process engineering. Found passion in coding and started the path as a developer.
     </p>
-    <p>When not coding, I play games (mostly Fortnite), make food and spend time with my family as much as possible.</p>
+    <p>When not coding, I play games (mostly Fortnite), watch shows and movies, draw, make food and spend time with my family as much as possible.</p>
     <p>Know me more, at <a href="https://github.com/f2xiao">Github</a>, <a href="#">CV</a>, <a href="#">LeetCode</a>, <a href="#">Linkedin</a> </p>
   </div>
    <div class="projects">
@@ -26,8 +26,8 @@
   </div>
    <div class="posts" v-bind:style="{'padding':'2.5rem 0'}">
      <h2> <router-link to="/posts">Posts</router-link></h2>
-     <div v-for="post in posts" :key="post.title" >
-      <router-link  :to="{ path: '/posts/'+post.title, params: {fileName: post.title }}">{{post.title}}</router-link>
+     <div v-for="post in posts" :key="post.filename" >
+      <router-link  :to="{ path: '/posts/'+post.filename, params: {fileName: post.filename }}">{{post.filename}}</router-link>
     </div>
    </div>
   </div>
@@ -38,10 +38,10 @@ import { mapState } from 'vuex'
 
 export default {
   name: 'Home',
-  computed: mapState([
-    'posts',
-    'projects'
-  ])
+  computed: mapState({
+    posts: state => state.posts.slice(-3),
+    projects: state => state.projects
+  })
 }
 </script>
 <style lang="scss">

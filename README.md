@@ -14,7 +14,6 @@ classDiagram
   State : posts
   State : miniJavaScriptApps
   class modules
-  modules: viewposts
 ```
 
 ```mermaid

@@ -1,14 +1,14 @@
 ---
 layout: default
 date: 2022-10-05
-title: Learn Docker - Basic
+title: Docker Basics
 tags:
   - Docker
   - DevOps
 ---
+## Cheatsheet
 
-# Cheatsheet
-
+```plaintext
 `docker build -t <imageTagName> <host-path-that-contains-dockerfile>`
 
 `docker run -dp <host-port>:<container-port> <imageTagName>`
@@ -35,7 +35,9 @@ tags:
 
 `docker run -dp <host-port>:<container-port> -w <WORKDIR> -v ${PWD}:<WORKDIR> <imageTagName> sh -c "npm install && npm run dev"`
 
-# Overview
+```
+
+## Overview
 
 docker: an open source platform for developing, shipping and running applications within containers
 
@@ -99,7 +101,10 @@ dockerfile:contains instructions for creating a Docker container
 
 pull an image from the registry and run the image:
 
+```plaintext
 `docker run -d -p 80:80 docker/getting-started`
+```
+
 
 This command contains the following parameters:
 - -d -run the container in detached mode (in background)
@@ -130,7 +135,7 @@ stop and remove the old container then build the updated version of the image an
 
 `docker login -u <username>`
 
-2. create a repo with <repoName>, then rename your local image with the same name as the <username>/<repoName>
+2. create a repo with `<repoName>`, then rename your local image with the same name as the `<username>/<repoName>`
 
  `docker tag local-image:tagname new-repo:tagname`
   
@@ -160,7 +165,7 @@ Docker maintains the physical location the volume is on the disk, refers to the 
  
  `docker run -dp <host-port>:<container-port> -v <volume-name>:<container-path> <image-tag-name>`
  
- sync  <container-path> to <volume-name> (named volume) or sync <container-path> to <host-path> (bind mounts)
+ sync ` <container-path>` to `<volume-name>` (named volume) or sync `<container-path>` to `<host-path>` (bind mounts)
  
  3. inspect the data
  
@@ -210,7 +215,7 @@ NOTE: when use `-v ${PWD}:<WORKDIR>` the `<WORKDIR>` in the container will be ov
 ### Multi-stage builds
 
 #### React example
-```
+```html
  # stage 1: node environment
  # base image: node
  FROM
@@ -229,7 +234,7 @@ NOTE: when use `-v ${PWD}:<WORKDIR>` the `<WORKDIR>` in the container will be ov
  # base imgae: nginx
  FROM
  # compiled JS, html and css
- COPY --from=build <host-path> <container-path>
+ COPY --from=build host-path container-path
 ```
 ## Deploy app to Azure
  

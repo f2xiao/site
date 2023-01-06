@@ -5,16 +5,16 @@
        <p><button @click="showAll">Show All</button></p>
        <div class="tags">
          <button v-for="(value,name) in tags" :key="name">
-           <span @click="showTaggedPosts(name)">#{{name}} ({{value.count}})</span> 
+           <span @click="showTaggedPosts(name)">#{{name}} ({{value}})</span> 
         </button>
        </div>
        <div 
        :class="{ notshow: !post.show }" 
        v-for="post in viewposts" 
-       :key="post.title" >
+       :key="post.filename" >
         <router-link  
-        :to="{ path: '/posts/'+post.title, params: {fileName: post.title }}">
-        {{post.title}}</router-link>
+        :to="{ path: '/posts/'+post.filename, params: {fileName: post.filename}}">
+        {{post.filename}}</router-link>
        <p>{{post.des}}</p>
       </div>
   </div>
@@ -29,7 +29,7 @@ export default {
       return this.$store.state.viewposts.viewposts;
     },
     tags(){
-      return this.$store.state.viewposts.tagsMap;
+      return this.$store.state.viewposts.tags;
     }
   },
   methods:{
@@ -46,7 +46,7 @@ export default {
        this.viewposts.forEach(post => post.show=true )
      }
   },
-  created: function(){
+  created: function () {
     document.title = "Fangfang | Posts"
   }
 }
