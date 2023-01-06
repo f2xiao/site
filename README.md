@@ -18,7 +18,7 @@ classDiagram
 
 ```mermaid
 ---
-title: viewposts
+title: viewposts module
 ---
 classDiagram
   class State
