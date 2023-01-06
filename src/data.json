@@ -1,9 +1,19 @@
 {
     "posts": [
         {
+            "filename": "Rethink of Set Theory",
+            "show": true,
+            "tag":[ "Math"]
+        },
+        {
+            "filename": "Frontend TDD - React Testing Library",
+            "show": true,
+            "tag":["Reactjs","Unit Testing", "Frontend"]
+        },
+        {
             "filename": "How to create a UI library for Vue",
             "show": true,
-            "tag":["Vuejs","UI", "frontend"]
+            "tag":["Vuejs","UI", "Frontend"]
         },
         {
             "filename": "Learn Docker Basics",

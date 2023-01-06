@@ -23,7 +23,6 @@ title: viewposts
 classDiagram
   class State
   State : tags
-  State : tagsMap
   State : viewposts
   class Mutations
   Mutations : init

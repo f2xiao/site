@@ -39,7 +39,7 @@ import { mapState } from 'vuex'
 export default {
   name: 'Home',
   computed: mapState({
-    posts: state => state.posts.slice(-3),
+    posts: state => state.posts.slice(0,3),
     projects: state => state.projects
   })
 }
