@@ -9,7 +9,7 @@
     <p>
        Formerly worked as an mechanical engineer in automotive industry, specialized in CAD modeling and process engineering. Found passion in coding and started the path as a developer.
     </p>
-    <p>When not coding, I play games (mostly Fortnite), watch shows and movies, draw, make food and spend time with my family as much as possible.</p>
+    <p>When not coding, I play games (mostly Fortnite), watch shows, movies, make food, draw and spend time with my family as much as possible.</p>
     <p>Know me more, at <a href="https://github.com/f2xiao">Github</a>, <a href="#">CV</a>, <a href="#">LeetCode</a>, <a href="#">Linkedin</a> </p>
   </div>
    <div class="projects">
