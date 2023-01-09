@@ -9,7 +9,7 @@ source code for [my site](https://f2xiao.github.io/site)
 title: App Store
 ---
 classDiagram
-  App Store <|-- viewposts : Modules
+  App Store <|-- viewposts
   App Store : State
   App Store : Modules
   class State
