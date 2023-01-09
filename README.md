@@ -4,6 +4,8 @@ source code for [my site](https://f2xiao.github.io/site)
 
 # Development
 
+App Store:
+
 ```mermaid
 classDiagram
   App Store <|-- viewposts : Modules
@@ -18,6 +20,8 @@ classDiagram
   class Modules
   Modules : viewposts
 ```
+
+Modules viewposts:
 
 ```mermaid
 classDiagram
