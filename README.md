@@ -6,9 +6,11 @@ source code for [my site](https://f2xiao.github.io/site)
 
 ```mermaid
 classDiagram
-  App Store <|-- viewposts
+  App Store <|-- viewposts : Modules
   App Store : State
   App Store : Modules
+  viewposts : State
+  viewposts: Mutations
   class State
   State : projects
   State : posts
