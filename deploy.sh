@@ -13,6 +13,8 @@ cd dist
 # echo 'www.example.com' > CNAME
 
 git init
+# change the default branch name to main
+git checkout -b main
 git add -A
 git commit -m 'deploy'
 
