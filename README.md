@@ -5,7 +5,8 @@ source code for [my site](https://f2xiao.github.io/site)
 # Development
 
 ```mermaid
-classDiagram AppStore
+classDiagram
+  App Store <|-- viewposts : Modules
   class State
   State : projects
   State : posts
@@ -15,7 +16,7 @@ classDiagram AppStore
 ```
 
 ```mermaid
-classDiagram ViewPosts
+classDiagram
   class State
   State : tags
   State : viewposts
