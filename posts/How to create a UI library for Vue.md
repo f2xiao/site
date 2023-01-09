@@ -105,8 +105,9 @@ Since we want to build a UI library, import and register the component globally 
 - import by CDN
 
 ### Import all components
-under the component folder, only need vue component file which defines the component and  
-### Import as needed
-### Import by CDN
+under the component folder, only need vue component file which defines the component
 
-## Build the UI library
+TBD:
+- Import as needed 
+- Import by CDN
+- Build the UI library

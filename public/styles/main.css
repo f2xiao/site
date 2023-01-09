@@ -45,15 +45,33 @@ body {
     float: right;
   }
   
+  h1{
+    font-size: 1.5em;
+  }
+  h2{
+    font-size: 1.25em;
+  }
+  h3{
+    font-size: 1em;
+  }
+  h4{
+    font-size: 0.75em;
+  }
+  h5{
+    font-size: 0.5em;
+  }
+
+
+
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Readex Pro', sans-serif;
     /* margin: 1.4em 0 1.4em 0; */
     font-weight: normal;
   }
   
-  ul,li{
+  /* ul,li{
     list-style: none;
-  }
+  } */
 
   a, a:visited, a:hover, a:active {
     text-decoration: underline;

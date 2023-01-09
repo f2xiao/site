@@ -10,10 +10,6 @@ tags:
 
 # Set Theory
 
-## Disclaimer
-
-This artical is meant for math lovers, not for beginners.
-
 ## What is set?
 
 It is a math model to represent a collection of things with some common properties.

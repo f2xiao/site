@@ -13,7 +13,8 @@ classDiagram
   State : projects
   State : posts
   State : miniJavaScriptApps
-  class modules
+  class Modules
+  Modules : viewposts
 ```
 
 ```mermaid
@@ -30,10 +31,11 @@ classDiagram
 
 # License
 
-The following directories and their contents are Copyright (c) 2022, Fangfang Xiao. You may not reuse anything therein without my permission:
+The following directories and their contents are Copyright (c) 2023, Fangfang Xiao. You may not reuse anything therein without my permission:
 
 ```
-posts
+posts/
 src/assets
+data.json
 ```
 
