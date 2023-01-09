@@ -5,9 +5,6 @@ source code for [my site](https://f2xiao.github.io/site)
 # Development
 
 ```mermaid
----
-title: App Store
----
 classDiagram
   App Store <|-- viewposts
   App Store : State
