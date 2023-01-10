@@ -7,6 +7,8 @@
 </template>
 
 <script>
+import mermaid from 'mermaid';
+
   export default {
     name: 'Post',
     props: ['fileName'],
@@ -22,6 +24,24 @@
       this.dynamicComponent = markdown.vue.component;
       // Use Async Components for the benefit of code splitting
       // https://vuejs.org/v2/guide/components-dynamic-async.html#Async-Components
-    }
+      
+  },
+  mounted() {
+      mermaid.initialize({
+      startOnLoad: true,
+      theme: 'default',
+      gantt: {
+        axisFormatter: [
+          ['%Y-%m-%d', (d) => {
+            return d.getDay() === 1;
+          }],
+        ],
+      },
+    });
+mermaid.init();
+    
+   
+  }
+    
   }
 </script>

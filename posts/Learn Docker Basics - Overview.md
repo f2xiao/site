@@ -15,6 +15,10 @@ container: a standard unit of loosely isolated environment for distributing and 
 
 ## docker architecture
 client-server architecture:
+```mermaid
+graph LR;
+  Client-->Server;
+```
  - client: docker client, docker compose
  - server: docker daemon
 

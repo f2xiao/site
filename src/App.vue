@@ -17,6 +17,8 @@
 </style>
 
 <script>
+
+
 function setTheme(colorScheme){
    const sheets = document.getElementsByTagName('link');
    sheets[0].href = `${process.env.BASE_URL}favicon-${colorScheme}.svg`;
@@ -37,6 +39,10 @@ export default{
   created: function () {
     this.$store.commit("viewposts/init", this.$store.state.posts);
     document.title = 'Fangfang';
-  }
+  },
+  
+
+
+  
 }
 </script>
