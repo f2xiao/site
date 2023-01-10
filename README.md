@@ -31,6 +31,14 @@ classDiagram
   class Mutations
   Mutations : init
 ```
+## Post
+```mermaid
+flowchart LR;
+  markdown.md-->vue.component-->html 
+```
+markdown.md file is parsed by `markdown-it` and styled with `highlightjs`, mermaid graph is supported by `markdown-it-mermaid` 
+
+NOTE: `markdown-it-mermaid` can only parse 'GRAPH' in the markdown file at this moment 
 
 # License
 
