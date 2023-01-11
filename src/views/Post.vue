@@ -26,22 +26,23 @@ import mermaid from 'mermaid';
       // https://vuejs.org/v2/guide/components-dynamic-async.html#Async-Components
       
   },
-  mounted() {
-      mermaid.initialize({
-      startOnLoad: true,
-      theme: 'default',
-      gantt: {
-        axisFormatter: [
-          ['%Y-%m-%d', (d) => {
-            return d.getDay() === 1;
-          }],
-        ],
-      },
-    });
-mermaid.init();
-    
-   
-  }
-    
+    mounted() {
+        try {
+          mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            gantt: {
+                axisFormatter: [
+                  ['%Y-%m-%d', (d) => {
+                    return d.getDay() === 1;
+                  }],
+                ],
+              },
+            });
+          mermaid.init();
+        } catch (error) {
+          console.log(error)
+        }
+    }
   }
 </script>
