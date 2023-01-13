@@ -22,6 +22,16 @@
             "tag":["Docker","DevOps"]
         },
         {
+            "filename": "Review - JavaScript Fundementals",
+            "show": true,
+            "tag":["JavaScript","Review"]
+        },
+        {
+            "filename": "Review - HTML and CSS",
+            "show": true,
+            "tag":["HTML","CSS","Review"]
+        },
+        {
             "filename": "How to create a UI library for Vue",
             "show": true,
             "tag":["Vuejs","UI", "Frontend"]
