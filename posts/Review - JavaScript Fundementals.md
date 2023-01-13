@@ -1,3 +1,13 @@
+---
+layout: default
+date: 2023-01-13
+title: Review - JavaScript Fundementals
+series: Foundations
+tags:
+  - JavaScript
+  - Frontend
+---
+# Contents
 <details>
 <summary>Fundementals Part 1</summary>
 

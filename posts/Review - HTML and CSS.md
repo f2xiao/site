@@ -1,3 +1,14 @@
+---
+layout: default
+date: 2023-01-13
+title: Review - HTML and CSS
+series: oundations
+tags:
+  - HTML
+  - CSS
+  - Frontend
+---
+# Contents
 <details>
 <summary>HTML</summary>
 
@@ -56,7 +67,7 @@ A flexbox container is an element with CSS properties `display:flex` on it. Any 
 <details>
 <summary>Flexbox Summary</summary>
 
-flexbox architectures:
+flexbox architecture:
 
 ```mermaid
 graph LR;
