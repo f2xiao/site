@@ -245,10 +245,55 @@ put one `if...else...` statement inside another one
 </details>
 
 <details>
+  <summary>Fundementals Part 3</summary>
+
+
+<details>
+  <summary>What are functions useful for?</summary>
+
+
+</details>
+
+<details>
+  <summary>How do you invoke a function?</summary>
+
+
+</details>
+
+<details>
+  <summary>What are anonymous functions?</summary>
+
+
+</details>
+
+<details>
+  <summary>What is function scope?</summary>
+
+
+</details>
+
+<details>
+  <summary>What are return values?</summary>
+
+
+</details>
+
+<details>
+  <summary>What are arrow functions?</summary>
+
+
+</details>
+
+</details>
+
+<details>
   <summary></summary>
 
 
 </details>
+
+
+
 
 
 

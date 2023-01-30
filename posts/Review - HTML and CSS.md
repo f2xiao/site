@@ -42,7 +42,8 @@ An HTML attribute gives additional information to an HTML element and always goe
 <details>
 <summary>What is flexbox?</summary>
 
-Flexbox is a way to arrange items into rows or columns. These items will flex (i.e. grow or shrink) based on some simple rules that you can define.
+Flexbox is a way to arrange items into rows or columns. These items will flex (i.e. grow or shrink) based on some simple rules that you can define. Most of the time, flex containers determines the layout on the flex items with the properties `justify-content` and `align-items`. These two both decide how the flex items are distributed across the main and cross axes.
+The main purpose of flex items is to let the flex container know how many items it needs to position. The flex items also have properties like `flex` and `align-self` to change their layout individually.
 </details>
 
 <details>
