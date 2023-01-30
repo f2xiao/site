@@ -27,6 +27,11 @@
             "tag":["JavaScript","Review"]
         },
         {
+            "filename": "Review - JavaScript Intermediate",
+            "show": true,
+            "tag":["JavaScript","Review"]
+        },
+        {
             "filename": "Review - HTML and CSS",
             "show": true,
             "tag":["HTML","CSS","Review"]
