@@ -10,9 +10,7 @@ const markdownItLA = require('markdown-it-link-attributes')
 const markdownItMermaid = require('markdown-it-mermaid').default;
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-  ? '/site/'
-  : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/site': '/',
   configureWebpack: {
     module: {
       rules: [
