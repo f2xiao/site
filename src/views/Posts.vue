@@ -1,6 +1,6 @@
 <template>
    <div class="posts-view">
-      <a class="styled-link" href="/" aria-label="Home">←</a>
+      <a class="styled-link" href="/site" aria-label="Home">←</a>
        <h2>Posts</h2>
        <p><button @click="showAll">Show All</button></p>
        <div class="tags">

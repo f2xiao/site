@@ -1,6 +1,6 @@
 <template>
    <div>
-      <a class="styled-link" href="/" aria-label="Home">←</a>
+      <a class="styled-link" href="/site" aria-label="Home">←</a>
        <h2>Mini JavaScript Apps</h2>
        <div 
        v-for="app in apps" 
