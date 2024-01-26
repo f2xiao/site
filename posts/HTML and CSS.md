@@ -12,6 +12,8 @@ tags:
 <details>
 <summary>HTML</summary>
 
+>
+
 <details>
 <summary>What is an HTML element?</summary>
 
@@ -36,8 +38,13 @@ An HTML attribute gives additional information to an HTML element and always goe
 
 </details>
 
+---
+
 <details>
+
 <summary>CSS Flexbox</summary>
+
+>
 
 <details>
 <summary>What is flexbox?</summary>
@@ -99,6 +106,16 @@ graph LR;
 ```
 
 </details>
+
+</details>
+
+---
+
+<details>
+  <summary></summary>
+
+  >
+
 
 </details>
 
