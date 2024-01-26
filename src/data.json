@@ -1,40 +1,40 @@
 {
     "posts": [
         {
-            "filename": "Learn Docker Basics - Cheatsheet",
+            "filename": "Docker Basics - Cheatsheet",
             "show": true,
             "tag":["Docker","DevOps"]
         },
         {
-            "filename": "Learn Docker Basics - Overview",
+            "filename": "Docker Basics - Overview",
             "show": true,
             "tag":["Docker","DevOps"]
         },
         
         {
-            "filename": "Learn Docker Basics - Container",
+            "filename": "Docker Basics - Container",
             "show": true,
             "tag":["Docker","DevOps"]
         },
         {
-            "filename": "Learn Docker Basics - Presist Data",
+            "filename": "Docker Basics - Presist Data",
             "show": true,
             "tag":["Docker","DevOps"]
         },
         {
-            "filename": "Review - JavaScript Fundementals",
+            "filename": "JavaScript Fundementals",
             "show": true,
-            "tag":["JavaScript","Review"]
+            "tag":["JavaScript", "Frontend"]
         },
         {
-            "filename": "Review - JavaScript Intermediate",
+            "filename": "JavaScript Intermediate",
             "show": true,
-            "tag":["JavaScript","Review"]
+            "tag":["JavaScript", "Frontend"]
         },
         {
-            "filename": "Review - HTML and CSS",
+            "filename": "HTML and CSS",
             "show": true,
-            "tag":["HTML","CSS","Review"]
+            "tag":["HTML","CSS", "Frontend"]
         },
         {
             "filename": "How to create a UI library for Vue",
