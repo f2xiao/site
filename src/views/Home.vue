@@ -2,14 +2,15 @@
   <div class="home">
     <div class="Intro">
    <header><h1>Fangfang</h1></header>
-    <p><strong>Self-taught JavaScript Fullstack Developer.</strong>
+    <p><strong>JavaScript Fullstack Developer.</strong>
     Enjoy buidling apps. Write JavaScript, HTML and CSS.
-    Love the idea of OOP and abstraction of complex concepts. Currently learning Nodejs and reviewing React, plan to learn Flutter in the future.  
+    <p>Techstack that I work with: React, Vue, NodeJS, ExpressJS.</p>
+    Love the idea of OOP and abstraction of complex concepts.
     </p>
     <p>
        Formerly worked as an mechanical engineer in automotive industry, specialized in CAD modeling and process engineering. Found passion in coding and started the path as a developer.
     </p>
-    <p>When not coding, I play games (mostly Fortnite), watch shows, movies, make food, draw and spend time with my family as much as possible.</p>
+    <p>When not coding, I play games (mostly Fortnite), watch animes and spend time with my family as much as possible. Currently I am learning how to sew.</p>
     <p>Know me more, at <a href="https://github.com/f2xiao">Github</a>, <a href="#">CV</a>, <a href="#">LeetCode</a>, <a href="#">Linkedin</a> </p>
   </div>
    <div class="projects">
