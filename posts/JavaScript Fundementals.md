@@ -10,6 +10,9 @@ tags:
 # Contents
 <details>
   <summary>Fundementals Part 1: Variables and Opeartors</summary>
+
+  >
+
   <details>
   <summary>Name the three ways to declare a variable</summary>
       
@@ -95,8 +98,13 @@ tags:
   </details>
 </details>
 
+---
+
 <details>
   <summary>Fundementals Part 2: Boolean and Conditions</summary>
+
+  >
+
 <details>
   <summary>What are the eight data types in JavaScript?</summary>
 
@@ -244,9 +252,12 @@ put one `if...else...` statement inside another one
 
 </details>
 
+---
+
 <details>
   <summary>Fundementals Part 3：Function Basics</summary>
 
+ >
 
 <details>
   <summary>What are functions useful for?</summary>
@@ -292,8 +303,12 @@ a simple and concise way of creating function.
 
 </details>
 
+---
+
 <details>
   <summary>Fundementals Part 4: Array and Loops</summary>
+
+>
 
 <details>
   <summary>What is an array?</summary>
@@ -367,8 +382,12 @@ writing automated tests are describi8ng how the code should work before actaully
 
 </details>
 
+---
+
 <details>
   <summary>Fundementals 5: Objects</summary>
+
+   >
 
 <details>
   <summary>What is the difference between objects and arrays?</summary>
@@ -400,8 +419,12 @@ the reduce method calls a reducer function on each of the element in the array a
 
 </details>
 
+---
+
 <details>
   <summary></summary>
+   
+  >
 
 
 </details>
