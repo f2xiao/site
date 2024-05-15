@@ -24,22 +24,24 @@
       </p>
       <p>
         Know me more, at <a href="https://github.com/f2xiao">Github</a>,
-        <a href="#">CV</a>, <a href="#">LeetCode</a>,
+        <a href="#">CV</a>,
         <a href="https://www.linkedin.com/in/fangfang-xiao">Linkedin</a>
       </p>
     </div>
     <div class="projects">
       <h2>Projects</h2>
       <div>
-        <router-link class="left" :to="projects[0].link">{{
+        <a class="left" :href="projects[0].link" target="_blank">{{
           projects[0].title
-        }}</router-link>
+        }}</a>
         <button class="right disabled">
           <span>{{ projects[0].tags.join() }}</span>
         </button>
       </div>
       <div v-for="project in projects.slice(1)" :key="project.title">
-        <a class="left" :href="project.link">{{ project.title }}</a>
+        <a class="left" :href="project.link" target="_blank">{{
+          project.title
+        }}</a>
         <button class="right disabled">
           <span>{{ project.tags.join() }}</span>
         </button>
