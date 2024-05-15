@@ -1,6 +1,8 @@
 <template>
   <div class="post-view">
-    <a class="styled-link" href="/posts" aria-label="Home">←</a>
+    <router-link class="styled-link" to="/posts" aria-label="Home"
+      >←</router-link
+    >
     <!-- <h2>{{ title }}</h2> -->
     <component :is="dynamicComponent" />
   </div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a class="styled-link" href="/" aria-label="Home">←</a>
+    <router-link class="styled-link" to="/" aria-label="Home">←</router-link>
     <h2>Mini JavaScript Apps</h2>
     <div v-for="app in apps" :key="app.title">
       <card :app="app"></card>
