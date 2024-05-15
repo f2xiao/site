@@ -30,18 +30,18 @@
     </div>
     <div class="projects">
       <h2>Projects</h2>
-      <div>
-        <a class="left" :href="projects[0].link" target="_blank">{{
-          projects[0].title
-        }}</a>
-        <button class="right disabled">
-          <span>{{ projects[0].tags.join() }}</span>
-        </button>
-      </div>
-      <div v-for="project in projects.slice(1)" :key="project.title">
+      <div v-for="project in projects.slice(0, 2)" :key="project.title">
         <a class="left" :href="project.link" target="_blank">{{
           project.title
         }}</a>
+        <button class="right disabled">
+          <span>{{ project.tags.join() }}</span>
+        </button>
+      </div>
+      <div v-for="project in projects.slice(-1)" :key="project.title">
+        <router-link class="left" :to="project.link">{{
+          project.title
+        }}</router-link>
         <button class="right disabled">
           <span>{{ project.tags.join() }}</span>
         </button>
