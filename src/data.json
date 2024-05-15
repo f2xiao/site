@@ -1,136 +1,130 @@
 {
-    "posts": [
+  "posts": [
+    {
+      "filename": "Docker Basics - Cheatsheet",
+      "show": true,
+      "tag": ["Docker", "DevOps"]
+    },
+    {
+      "filename": "Docker Basics - Overview",
+      "show": true,
+      "tag": ["Docker", "DevOps"]
+    },
+
+    {
+      "filename": "Docker Basics - Container",
+      "show": true,
+      "tag": ["Docker", "DevOps"]
+    },
+    {
+      "filename": "Docker Basics - Presist Data",
+      "show": true,
+      "tag": ["Docker", "DevOps"]
+    },
+    {
+      "filename": "JavaScript Fundementals",
+      "show": true,
+      "tag": ["JavaScript", "Frontend"]
+    },
+    {
+      "filename": "JavaScript Intermediate",
+      "show": true,
+      "tag": ["JavaScript", "Frontend"]
+    },
+    {
+      "filename": "HTML and CSS",
+      "show": true,
+      "tag": ["HTML", "CSS", "Frontend"]
+    },
+    {
+      "filename": "How to create a UI library for Vue",
+      "show": true,
+      "tag": ["Vuejs", "UI", "Frontend"]
+    },
+    {
+      "filename": "Frontend TDD - Overview",
+      "show": true,
+      "tag": ["Unit Testing", "Frontend"]
+    },
+    {
+      "filename": "Frontend TDD - Test Runner Jest",
+      "show": true,
+      "tag": ["Unit Testing", "Frontend", "Jest"]
+    },
+    {
+      "filename": "Frontend TDD - React Testing Library",
+      "show": true,
+      "tag": ["Reactjs", "Unit Testing", "Frontend"]
+    },
+    {
+      "filename": "User Authentication in Express",
+      "show": true,
+      "tag": ["Authetication", "Backend", "ExpressJS"]
+    },
+    {
+      "filename": "Rethink of Set Theory",
+      "show": true,
+      "tag": ["Math"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Nextwatch",
+      "tags": ["React", "Express", "MongoDB", "RESTFul API"],
+      "link": "https://next-watch.onrender.com",
+      "des": "A multi-user platform that allow user to create nextwatch list and share"
+    },
+    {
+      "title": "Instock",
+      "tags": ["React", "Sass", "Express", "MySQL", "RESTFul API"],
+      "link": "https://instock-frontend-0kc1.onrender.com/",
+      "des": "A inventory management site with CRUD operations and search"
+    },
+    {
+      "title": "Mini JavaScript Apps ",
+      "tags": ["JavaScript", "HTML", "CSS"],
+      "link": "/mini-javascript-apps",
+      "des": "Various small apps implemented with HTML, CSS and vanilla JavaScript",
+      "apps": [
         {
-            "filename": "Docker Basics - Cheatsheet",
-            "show": true,
-            "tag":["Docker","DevOps"]
+          "title": "Etch-A-Sketch",
+          "link": "https://f2xiao.github.io/etch-a-sketch/",
+          "img": "etch-a-sketch.gif",
+          "des": "Sketch pad, to draw: 1. select a color 2/1. hover mouse on desktop 2/2. swipe with finger or fingers on mobile devices"
         },
         {
-            "filename": "Docker Basics - Overview",
-            "show": true,
-            "tag":["Docker","DevOps"]
-        },
-        
-        {
-            "filename": "Docker Basics - Container",
-            "show": true,
-            "tag":["Docker","DevOps"]
+          "title": "Calculator",
+          "link": "https://f2xiao.github.io/Calculator-App/",
+          "img": "calculator.jpg",
+          "des": "Three themes calculator"
         },
         {
-            "filename": "Docker Basics - Presist Data",
-            "show": true,
-            "tag":["Docker","DevOps"]
-        },
-        {
-            "filename": "JavaScript Fundementals",
-            "show": true,
-            "tag":["JavaScript", "Frontend"]
-        },
-        {
-            "filename": "JavaScript Intermediate",
-            "show": true,
-            "tag":["JavaScript", "Frontend"]
-        },
-        {
-            "filename": "HTML and CSS",
-            "show": true,
-            "tag":["HTML","CSS", "Frontend"]
-        },
-        {
-            "filename": "How to create a UI library for Vue",
-            "show": true,
-            "tag":["Vuejs","UI", "Frontend"]
-        },
-        {
-            "filename": "Frontend TDD - Overview",
-            "show": true,
-            "tag":["Unit Testing", "Frontend"]
-        },
-        {
-            "filename": "Frontend TDD - Test Runner Jest",
-            "show": true,
-            "tag":["Unit Testing", "Frontend", "Jest"]
-        },
-        {
-            "filename": "Frontend TDD - React Testing Library",
-            "show": true,
-            "tag":["Reactjs","Unit Testing", "Frontend"]
-        },
-        {
-            "filename": "User Authentication in Express",
-            "show": true,
-            "tag":["Authetication","Backend", "ExpressJS"]
-        },
-        {
-            "filename": "Rethink of Set Theory",
-            "show": true,
-            "tag":[ "Math"]
+          "title": "JavaScript30",
+          "link": "https://f2xiao.github.io/JavaScript30/",
+          "img": "JavaScript30.png",
+          "des": "Mostly JavaScript, some CSS!"
         }
-    ],
-    "projects": [
-        {
-            "title": "Mini JavaScript Apps ",  
-            "tags": ["JavaScript", "HTML", "CSS"],
-            "link": "/mini-javascript-apps",   
-            "des": "Various small apps implemented with just HTML, CSS and JavaScript",
-            "apps":[
-                {
-                    "title":"Etch-A-Sketch",
-                    "link":"https://f2xiao.github.io/etch-a-sketch/",
-                    "img":"etch-a-sketch.gif",
-                    "des":"Sketch pad, to draw: 1. select a color 2/1. hover mouse on desktop 2/2. swipe with finger or fingers on mobile devices"
-                },
-                {
-                    "title":"Calculator",
-                    "link":"https://f2xiao.github.io/Calculator-App/",
-                    "img":"calculator.jpg",
-                    "des":"Three themes calculator"
-                },
-                {
-                    "title":"JavaScript30",
-                    "link":"https://f2xiao.github.io/JavaScript30/",
-                    "img":"JavaScript30.png",
-                    "des":"Mostly JavaScript, some CSS!"
-                }
-            ]
-        },
-        {
-            "title": "DeliciousDeliveries",  
-            "tags": ["Vue.js", "Node", "Express", "MongoDB","RESTFul API"],
-            "link": "#",   
-            "des": "A server-side rendering app, features including payment, authentication and product recommendations"  
-        },
-        {
-            "title": "Netube (Netflix Clone)",  
-            "tags": ["React", "Firebase", "Redux", "Material UI"],
-            "link": "#",    
-            "des": "Netflix clone, a serverless app. Features include routes mapping"  
-        },
-        {
-            "title": "Algorithm Visualizer",  
-            "tags": ["JavaScript", "Sorting", "Graph"],
-            "link": "#",   
-            "des": "Data Structure and Algorithms"  
-        }
-    ],
-    "miniJavaScriptApps":[
-        {
-            "title":"Etch-A-Sketch",
-            "link":"https://f2xiao.github.io/etch-a-sketch/",
-            "img":"etch-a-sketch.gif",
-            "des":"Sketch pad, to draw: 1. select a color 2/1. hover mouse on desktop 2/2. swipe with finger or fingers on mobile devices"
-        },
-        {
-            "title":"Calculator",
-            "link":"https://f2xiao.github.io/Calculator-App/",
-            "img":"calculator.jpg",
-            "des":"Three themes calculator"
-        },
-        {
-            "title":"JavaScript30",
-            "link":"https://f2xiao.github.io/JavaScript30/",
-            "img":"JavaScript30.png",
-            "des":"Mostly JavaScript, some CSS!"
-        }
-    ]
+      ]
+    }
+  ],
+  "miniJavaScriptApps": [
+    {
+      "title": "Etch-A-Sketch",
+      "link": "https://f2xiao.github.io/etch-a-sketch/",
+      "img": "etch-a-sketch.gif",
+      "des": "Sketch pad, to draw: 1. select a color 2/1. hover mouse on desktop 2/2. swipe with finger or fingers on mobile devices"
+    },
+    {
+      "title": "Calculator",
+      "link": "https://f2xiao.github.io/Calculator-App/",
+      "img": "calculator.jpg",
+      "des": "Three themes calculator"
+    },
+    {
+      "title": "JavaScript30",
+      "link": "https://f2xiao.github.io/JavaScript30/",
+      "img": "JavaScript30.png",
+      "des": "Mostly JavaScript, some CSS!"
+    }
+  ]
 }
