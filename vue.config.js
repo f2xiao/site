@@ -1,22 +1,22 @@
 // frontmatter-markdown-loader options
-const Mode = require('frontmatter-markdown-loader/mode')
+const Mode = require("frontmatter-markdown-loader/mode");
 // markdown parser
-const markdownIt = require('markdown-it')
+const markdownIt = require("markdown-it");
 // Preset to use highlight.js with markdown-it.
-const markdownItHlJs = require('markdown-it-highlightjs')
-// Link attributes plugin for markdown-it 
-const markdownItLA = require('markdown-it-link-attributes')
+const markdownItHlJs = require("markdown-it-highlightjs");
+// Link attributes plugin for markdown-it
+const markdownItLA = require("markdown-it-link-attributes");
 // mermaid graphs plugin for markdown-it
-const markdownItMermaid = require('markdown-it-mermaid').default;
+const markdownItMermaid = require("markdown-it-mermaid").default;
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ? '/site': '/',
+  publicPath: process.env.NODE_ENV === "production" ? "/site" : "/",
   configureWebpack: {
     module: {
       rules: [
         {
           test: /\.md$/,
-          loader: 'frontmatter-markdown-loader',
+          loader: "frontmatter-markdown-loader",
           options: {
             // import the compiled markdown body as Vue component.
             mode: [Mode.VUE_COMPONENT],
@@ -28,13 +28,13 @@ module.exports = {
               // Each link parsed with this config will have the passed attributes.
               .use(markdownItLA, {
                 attrs: {
-                  target: '_blank'
-                }
+                  target: "_blank",
+                },
               })
-              .use(markdownItMermaid)
-          }
-        }
-      ]
-    }
-  }
-}
+              .use(markdownItMermaid),
+          },
+        },
+      ],
+    },
+  },
+};

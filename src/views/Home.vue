@@ -24,7 +24,7 @@
       </p>
       <p>
         Know me more, at <a href="https://github.com/f2xiao">Github</a>,
-        <a href="/site/fangfang-xiao CV.pdf">CV</a>,
+        <a href="./fangfang-xiao CV.pdf">CV</a>,
         <a href="https://www.linkedin.com/in/fangfang-xiao">Linkedin</a>
       </p>
     </div>
