@@ -3,7 +3,7 @@
     <div class="Intro">
       <header><h1>Fangfang</h1></header>
       <p>
-        <strong>Fullstack Software Developer.</strong> Enjoy buidling apps.
+        <strong>Software Fullstack Developer.</strong> Enjoy buidling apps.
         Write JavaScript/Typescript, HTML and CSS.
       </p>
       Techstack that I work with:
